@@ -41,7 +41,7 @@ class Game{
 }
 
 public class cwh_50_ex3sol {
-    static void main(String[] args) {
+    public static void main(String[] args) {
          /*
         Create a class Game, which allows a user to play "Guess the Number"
         game once. Game should have the following methods:
