@@ -6,10 +6,12 @@ interface Bicycle1 {
     void speedUp(int increment);
 }
 interface Bicycle2 {
+    int x = 45;
     void blowHornK3g();
     void blowHornmhn();
 }
 class RazorCycle implements Bicycle1, Bicycle2 {
+    public int x = 55;
     @Override
     public void applyBrakes(int decrement) {
         System.out.println("Applying Brake");
@@ -35,6 +37,7 @@ public class cwh_55_interfaces {
 
         // YOU CAN CREATE PROPERTIES IN INTERFACES
         System.out.println(cycleHarry.a);
+        System.out.println(cycleHarry.x);
 
         // YOU CANNOT MODIFY THE PROPERTIES IN INTERFACES AS THEY ARE FINAL
         // cycleHarry.a = 454;
