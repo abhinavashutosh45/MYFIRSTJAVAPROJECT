@@ -36,17 +36,18 @@ public class cwh_75_thread_methods {
             System.out.println(e);
         }
          */
-
-        t2.start(); //-- Starts the thread.
+        t2.start();
         /*
-        t1.start(); //-- Starts the thread.
-        t1.getName(); //--it returns the name of the thread.
-        t1.getState(); //-- it returns the state of the thread.
-        t1.getPriority(); //-- it returns the priority of the thread.
-        t1.sleep(); //-- Stop the thread for the specified time.
-        t1.join(); //-- Stop the current thread until the called thread gets terminated
+        t1.start(); // -- Starts the thread.
+        t1.getState(); // -- It returns the state of the thread.
+        t1.getName(); // -- It returns the name of the thread.
+        t1.getPriority(); // -- It returns the priority of the thread.
+        //t1.sleep();(Use with try-catch block) // -- Stop the thread for the specified time
+        //t1.join(); (Use with try-catch block) // -- Stop the current thread until the called thread gets terminated
+
 
          */
+
 
       //  Go to this website for complete thread reading : -->  https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html
 
