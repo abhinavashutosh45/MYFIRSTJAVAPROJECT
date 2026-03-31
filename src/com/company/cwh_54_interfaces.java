@@ -19,6 +19,7 @@ class AvonCycle implements Bicycle {
         speed += increment; // or speed  = speed + increment;
         System.out.println("After applying gears speed :  " + speed + "Km/h");
     }
+
 }
 
 public class cwh_54_interfaces {

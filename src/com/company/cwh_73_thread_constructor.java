@@ -30,6 +30,7 @@ class MyThr2 implements Runnable{
     }
 }
 
+
 public class cwh_73_thread_constructor {
     static void main(String[] args) {
     /*    MyThr t1 = new MyThr("Harry Potter");
@@ -59,6 +60,7 @@ public class cwh_73_thread_constructor {
         MyThr2 myThr2 = new MyThr2("MyThr2");
         Thread thread2 = new Thread(myThr2);
         thread2.start();
+
 
 
 
