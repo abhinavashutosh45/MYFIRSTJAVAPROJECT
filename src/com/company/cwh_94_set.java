@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.HashSet;
 
-public class cwh_94_set {
+public class cwh_95_set {
     static void main(String[] args) {
         HashSet<Integer> myHashset = new HashSet<>(6,0.5f);
         myHashset.add(6);
