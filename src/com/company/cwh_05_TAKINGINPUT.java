@@ -11,6 +11,7 @@ public class cwh_05_TAKINGINPUT {
 //        System.out.println("Enter number 2");
 //        int b = sc.nextInt();
 //        float b = sc.nextFloat();
+//        Double a = sc.nextDouble();
 
 //        int sum = a + b;
 //        float sum = a + b;
