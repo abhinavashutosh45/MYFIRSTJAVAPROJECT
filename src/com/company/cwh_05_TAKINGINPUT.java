@@ -24,6 +24,44 @@ public class cwh_05_TAKINGINPUT {
         String str = sc.nextLine();// -- It will print whole line.
         System.out.println(str);
 
+       // In Java, sc.hasNext() and sc.next() are methods of the Scanner class used to read input data token by token.
+  /*    1. sc.hasNext()
+        This method is a "checker." It looks ahead to see if there is any more data to read without actually consuming it.
+                Returns: A boolean (true if there is another token, false otherwise).
+        Behavior: It does not advance the scanner past any input. It simply checks the availability of the next "token" (a sequence of characters separated by whitespace like spaces, tabs, or newlines).
+        Usage: Commonly used in while loops to prevent errors when the end of the input is reached.
+        2. sc.next()
+        This method is an "extractor." It actually grabs the next piece of data from the input stream.
+        Returns: A String containing the next complete token.
+                Behavior: It reads characters until it hits a delimiter (usually a space) and then advances the scanner past that token.
+        Exception: If you call next() when no more data is available, it throws a NoSuchElementException.
+
+   */
+
+//        Example Usage
+//        In this example, sc.hasNext() ensures the loop continues as long as words exist,
+//        and sc.next() pulls them out one by one ("Hello", then "World", then "Java").
+        /*
+        import java.util.Scanner;
+
+        public class Example {
+            public static void main(String[] args) {
+                Scanner sc = new Scanner("Hello World Java");
+
+                // Use hasNext() to check if data is available
+                while (sc.hasNext()) {
+                    // Use next() to retrieve and print the word
+                    String word = sc.next();
+                    System.out.println(word);
+                }
+                sc.close();
+            }
+        }
+
+         */
+
+
+
 
       /*  Simple Rule
 
